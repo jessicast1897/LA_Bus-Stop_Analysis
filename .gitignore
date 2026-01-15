@@ -1,0 +1,91 @@
+# =========================
+# ArcGIS Pro Project Files
+# =========================
+
+# ArcGIS Pro project backups
+*.aprx~
+*.aprx.lock
+
+# ArcGIS Pro Indexes & temp files
+*.sr.lock
+*.esri.lock
+*.lock
+
+# =========================
+# Geodatabases
+# =========================
+
+# File geodatabases (often very large)
+*.gdb/
+*.gdb/**
+
+# Personal geodatabases
+*.mdb
+*.accdb
+
+# =========================
+# Shapefile Auxiliary Files
+# =========================
+
+*.sbn
+*.sbx
+*.fbn
+*.fbx
+*.ain
+*.aih
+*.ixs
+*.mxs
+*.atx
+*.xml
+
+# =========================
+# Raster & Cache Data
+# =========================
+
+*.aux
+*.aux.xml
+*.ovr
+*.rrd
+*.lrc
+*.cpg
+
+# Tile caches
+*.tpk
+*.tpkx
+*.vtpk
+Cache/
+cache/
+
+# =========================
+# Scratch & Temporary Data
+# =========================
+
+scratch/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# =========================
+# Python / Jupyter
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# =========================
+# Operating System Files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment & Secrets
+# =========================
+
+.env
+.env.*
